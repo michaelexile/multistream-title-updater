@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="#" />
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css" />
+</head>
+
+<body>
+	<div id="refreshContainer">Refreshed</div>
+	<div id="mainContainer">
+		
+		<div class="straightUpIloveCum">
+			<div id="title" style="font-size: 20px;">Update Titles</div>
+			<button id="infoIcon" style="padding: 0px 10px;">
+				<img src="info.svg" height="16px"/>
+			</button>
+			<img src="disconnected.svg" id="connectionStatusIcon"/>
+		</div>
+
+		<br/>
+
+		<div id="ThisIsWhereAllTheCoolStuffHappens">
+			<div>
+				<input type="text" id="titleInput" class="textBox"><br><br>
+				<div class="straightUpIloveCum">
+					<input type="submit" id="submitButton" class="button submitButton" value="UPDATE ALL">
+					<input type="submit" id="refreshButton" class="button" value="REFRESH">
+				</div>
+			</div>
+			
+			<br/>
+	
+			<div id="fieldsContainer">
+			</div>
+	
+			
+			<template id="platformTemplate">
+				<div class="broadcastBox">
+					<button id="platformIconButton" style="padding: 0px 10px;">
+						<img id="icon" height="20px" style="padding: 0px 10px 0px 0px;"/>
+					</button>
+					<input type="text" class="textBox platformTitle">
+					<input type="submit" class="button submitButton platformSubmitButton" value="UPDATE">
+				</div>
+			</template>
+		</div>
+	</div>
+</body>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src="./script.js"></script>
